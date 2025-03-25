@@ -1,5 +1,5 @@
 # Parazone 
-The simplest way to browse the internet, download and open web pages and files anonymously. Only takes up 10KB of storage, and can be used to bypass parental restrictions such as Clever, Securely, and Apple's Screen Time. 
+The simplest way to browse the internet, download and open web pages and files anonymously. Only takes up 10KB of storage, and can be used to bypass parental restrictions such as Clever, Securely, Google Family Link, and Apple's Screen Time. 
 
 ## Guide: 
 - Open index.html.
@@ -21,3 +21,4 @@ To use Yandex:
 - Fetch the url (https://yandex.com)
 - Open using your native browser or Parazone
 - Type in your search term
+- If it says 'Site Blocked', Access Restricted,
