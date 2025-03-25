@@ -10,7 +10,7 @@ The simplest way to browse the internet, download and open web pages and files a
 
 ### List of webpages that work for search engine indexing (in substitute for Google, which doesn't work):
 
-- Ecosia (URL: "https://ecosia.org/search?q=your+query+her")
+- Ecosia (URL: "https://ecosia.org/search?q=your+query+here")
 - Yandex (more instructions below)
 
 I am sure there is more, these are the only two I know of that work with this project. 
@@ -19,6 +19,7 @@ I am sure there is more, these are the only two I know of that work with this pr
 
 To use Yandex:
 - Fetch the url (https://yandex.com)
-- Open using your native browser or Parazone
-- Type in your search term
-- If it says 'Site Blocked', Access Restricted,
+- Open the '.html' file using your native browser or Parazone
+- Type in your search term and hit enter
+- If your browser says 'Site Blocked', 'Access Restricted', etc, copy the link from the search bar and fetch that one as well
+- Open the other '.html' file using either your native browser or Parazone
