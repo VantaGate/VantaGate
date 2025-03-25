@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Start Page</title>
+<style>
+body {
+text-align: center;
+font-family: sans-serif;
+background-color: #000;
+color: #fff;
+}
+h1 {
+padding: 15px;
+}
+.URL {
+text-align: center;
+border-radius: 10px;
+border: none;
+padding: 15px;
+width: 75%;;
+}
+.container {
+padding-top: 10px;
+padding-bottom: 10px;
+background: #000;
+border-radius: 10px;
+border: none;
+width: 100%;
+text-align: center;
+}
+button {
+color: #000;
+background: #fff;
+padding: 15px;
+border-radius: 10px;
+border: none;
+}
+</style>
+</head>
+<body>
+<h1>[Input URL]</h1>
+<div class="container">
+<input id="url-input" class="URL" type="text" placeholder="https://example.com"/>
+<button onclick="fetch()">Fetch</button>
+</div>
+<script>
+ function fetch(){
+  var url = document.getElementById('url-input').value;
+  if (url.length > 7){
+    var w = window.open("about:blank", "_blank", "status=no,toolbar=no,location=no,directories=no,resizable=yes,scrollbars=yes,width=9999,height=9999");
+    w.document.write(`<a href="${url}">Download</a>`);
+  }
+}
+</script>
+</body>
+</html>
+      
