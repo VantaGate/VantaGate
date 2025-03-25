@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Start Page</title>
+<style>
+body {
+background: #000;
+color: #fff;
+text-align: center;
+font-family: sans-serif;
+}
+.heading {
+background: #1a1a1a;
+max-width: 100%;
+padding: 1px;
+}
+.footer {
+font-size: 20px;
+padding: 1px;
+}
+a {
+text-decoration: none;
+color: #fff;
+}
+.cloak {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+}
+.footer {
+  bottom: 0;
+  margin: 10px;
+  font-size: 20px;
+background: #111;
+}
+.url {
+  border-radius: 15px;
+  border: none;
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+}
+.button {
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 2.5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+h1 {
+padding: 15px;
+}
+h3 {
+font-size: 20px;
+}
+.URL {
+text-align: left;
+border-radius: 10px;
+border: none;
+padding: 15px;
+margin: auto;
+  width: 300px;
+}
+.container {
+padding-top: 10px;
+padding-bottom: 10px;
+background: #000;
+border-radius: 10px;
+border: none;
+width: 100%;
+text-align: center;
+}
+button {
+color: #000;
+background: #fff;
+padding: 15px;
+margin: 10px;
+border-radius: 10px;
+border: none;
+}
+b {
+font-size: 20px;
+}
+</style>
+</head>
+<body>
+<div class="heading">
+<a href="index.html"><h1>Parazone</h1></a>
+</div>
+<div class="footer">
+<p><a href="index.html"><b>Home</b></a></p>
+<p><a href="guide.html"><b>Terminal Guide</b></a></p>
+</div>
+<h1>Fetch</h1>
+<div class="container">
+<input id="url-input" class="URL" type="text" placeholder="https://example.com"/>
+<br>
+<button onclick="fetch()">Fetch</button>
+</div>
+<script>
+ function fetch(){
+  var url = document.getElementById('url-input').value;
+  if (url.length > 7){
+    var w = window.open("about:blank", "_blank", "status=no,toolbar=no,location=no,directories=no,resizable=yes,scrollbars=yes,width=9999,height=9999");
+    w.document.write(`<a href="${url}">Download</a>`);
+  }
+}
+</script>
+<iframe src="blanklite.html" style="border:none;background:white;" width="100%" height="275vh"/>
+</div>
+</body>
+</html>
+      
