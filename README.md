@@ -1,6 +1,9 @@
 # Parazone 
 The simplest way to browse the internet, download and open web pages and files anonymously. Only takes up 10KB of storage, and can be used to bypass parental restrictions such as Clever, Securely, Google Family Link, and Apple's Screen Time. 
 
+# DISCLAIMER: 
+This tool allows you to download and open content anonymously. However, it is your responsibility to ensure that the content you are downloading is safe. We do not control the files you access through this tool, and we are not responsible for any harm caused by malicious files.
+
 ## Guide: 
 - Open index.html.
 - Paste link into Fetch and click the 'Fetch' button.
