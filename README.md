@@ -15,8 +15,9 @@ This tool allows you to download and open content anonymously. However, it is yo
 
 - Ecosia (URL: "https://ecosia.org/search?q=your+query+here")
 - Yandex (more instructions below)
+- Brave (URL: "https://search.brave.com/search?q=your+query+here")
 
-I am sure there is more, these are the only two I know of that work with this project. 
+I am sure there is more, but these are the only ones that I know of so far that work with this project.  
 
 #### How to use Yandex with Parazone 
 
