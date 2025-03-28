@@ -34,3 +34,6 @@ To use Yandex:
 - Type in your search term and hit enter
 - If your browser says 'Site Blocked', 'Access Restricted', etc, copy the link from the search bar and fetch that one as well
 - Open the other '.html' file using either your native browser or Parazone
+
+
+### Please use this tool responsibly. 
