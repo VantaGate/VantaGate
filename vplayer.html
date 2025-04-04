@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page</title>
+<style>
+body {
+background: #000;
+color: #fff;
+font-family: sans-serif;
+text-align: center;
+margin: 50px;
+}
+input {
+border-radius: 10px;
+border: none;
+padding: 15px;
+margin: 10px;
+}
+</style>
+</head>
+<body>
+    <h1>Video Player</h1><h6>by ParaZone</h6>
+    <label for="video-url"><b>Enter Video URL:</b></label>
+    <input type="text" id="video-url" placeholder="Enter video URL (e.g. .mp4)">
+    <button onclick="loadVideo()">Play Video</button>
+
+    <br><br>
+
+    <video id="video-player" width="640" height="360" controls>
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        function loadVideo() {
+            var videoUrl = document.getElementById('video-url').value;
+            var videoPlayer = document.getElementById('video-player');
+            
+            // Set the video source
+            videoPlayer.src = videoUrl;
+
+            // Load and play the video
+            videoPlayer.load();
+            videoPlayer.play();
+        }
+    </script>
+</body>
+</html>
+
