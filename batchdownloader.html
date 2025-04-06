@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Start Page</title>
+<style>
+body {
+text-align: center;
+margin: 25px;
+background: #000;
+color: #fff;
+font-family: sans-serif;
+}
+textarea {
+border-radius: 17.5px;
+margin: 17.5px;
+padding: 17.5px;
+resize: none;
+width: 65%
+}
+button {
+padding: 10px;
+border-radius: 10px;
+border: none;
+background: #fff;
+}
+</style>
+</head>
+<body>
+<h1>Batch Downloader</h1>
+<textarea id="urls" rows="10" cols="30" placeholder="Enter URLs here, one per line"></textarea>
+<br><button onclick="downloadFiles()">Download</button>
+<div id="status"></div>
+
+<script>
+function downloadFiles() {
+const urls = document.getElementById('urls').value.split('\n').map(url => url.trim()).filter(url => url); // Clean up the URLs
+
+const statusDiv = document.getElementById('status');
+statusDiv.innerHTML = 'Downloading files...'; // Feedback message
+
+// Loop through each URL and trigger the download
+urls.forEach((url, index) => {
+const link = document.createElement('a');
+link.href = url;
+const filename = url.split('/').pop().split('?')[0] + '.html'; // Ensure the file has a .html extension
+link.download = filename; // Set the download attribute with the file name
+link.target = '_self'; // Prevent redirection
+
+// We use a setTimeout to prevent redirection issues from interfering with the next download
+setTimeout(() => {
+link.click(); // Trigger the download
+}, 100 * index); // Slight delay to trigger each download in sequence
+});
+
+statusDiv.innerHTML = 'Downloads complete!'; // Feedback message after completion
+}
+</script>
+</body>
+</html>
