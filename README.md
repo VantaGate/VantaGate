@@ -1,4 +1,4 @@
-# Parazone 
+# VantaGate 
 The simplest way to browse the internet, download and open web pages and files anonymously. Only takes up 18KB of storage, and can be used to bypass parental restrictions such as Clever, Securely, Google Family Link, and Apple's Screen Time for Safari. 
 
 ## DISCLAIMER: 
