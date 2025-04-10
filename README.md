@@ -26,14 +26,14 @@ I am sure there is more, but these are the only ones that I know of so far that 
 
 The '123' in the URL above means any number you choose would work when fetching.
 
-#### How to use Yandex with Parazone 
+#### How to use Yandex with VantaGatae 
 
 To use Yandex:
 - Fetch the url (https://yandex.com)
-- Open the '.html' file using your native browser or Parazone
+- Open the '.html' file using your native browser or VantaGate
 - Type in your search term and hit enter
 - If your browser says 'Site Blocked', 'Access Restricted', etc, copy the link from the search bar and fetch that one as well
-- Open the other '.html' file using either your native browser or Parazone
+- Open the other '.html' file using either your native browser or VantaGate
 
 
 ### Please use this tool responsibly. 
