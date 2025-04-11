@@ -37,3 +37,5 @@ To use Yandex:
 
 
 ### Please use this tool responsibly. 
+
+###### Big updates for this project are currently under planning. 
