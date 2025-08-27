@@ -1,12 +1,41 @@
 # VantaGate 
-The simplest way to browse the internet, download and open web pages and files anonymously. Only takes up 18KB of storage, and can be used to bypass parental restrictions such as Clever, Securely, Google Family Link, and Apple's Screen Time for Safari. 
+The simplest way to browse the internet, download and open web pages and files anonymously. Only takes up 22KB of storage, and works in spite of most restrictions. Now, it may not work for ALL restrictions, but it certainly gets past Apple's Screen Time web restrictions.
 
 ## DISCLAIMER: 
 This tool allows you to download and open content anonymously. However, it is your responsibility to ensure that the content you are downloading is safe. We do not control the files you access through this tool, and we are not responsible for any harm caused by malicious files.
 
-## Guide: 
+## How does this work?
+
+The OSI model has seven layers, of which include:
+- 1. Physical Layer
+Transmits raw bit stream over the physical medium.
+- 2. Data Link Layer
+Defines the format of data on the network.
+- 3. Network Layer
+Decides which physical path the data will take. This is partially where the tool comes in, it ignores the restrictions put on the system and retrieves files.
+- 4. Transport Layer
+Transmits data using transmission protocols including TCP and UDP.
+- 5. Session Layer
+Maintains connections and is responsible for controlling ports and sessions.
+- 6. Presentation Layer
+Ensures that data is in a usable format and is where data encryption occurs.
+- 7. Application Layer
+Human-computer interaction layer, where applications can access the network services.
+
+TL;DR: The tool starts from Application Layer (7) then at the Network Layer (3) and all the way back up, retrieving files without a glance at the restrictions put in place.
+
+
+## Guides: 
+
+## Unix:
+- Go to "unix/VantaGate" and open the file.
+- It should open a terminal window, there you will enter the URL.
+- It will then prompt you to enter the name of the file you choose, WITHOUT entering the file extension as that is already prefixed to .html, unless you are not downloading a .html file in which case you can rename in your native file browser or CLI interface.
+! THIS METHOD ONLY WORKS FOR MACOS CLI. BATCH VERSION FOR WINDOWS COMING OUT SOON !
+
+## Web:
 - Open index.html.
-- Paste link into Fetch and click the 'Fetch' button.
+- Paste/type link into Fetch and click the 'Fetch' button.
 - Right click the link and select 'Save Link' or 'Download Linked File'.
 - Copy the file directory, if it is a webpage (ends in '.html').
 - Paste file directory into Open, and click the 'Open' button.
