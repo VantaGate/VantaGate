@@ -1,0 +1,31 @@
+#!/bin/bash
+
+read -p "Enter URL to download: " theURL
+if [[ -z "$theURL" ]]; then
+  echo "No URL entered. Exiting."
+  exit 1
+fi
+
+read -p "Enter filename (without extension): " theFileName
+if [[ -z "$theFileName" ]]; then
+  theFileName="downloaded_page"
+fi
+theFileName="${theFileName}.html"
+
+desktopPath="$HOME/Desktop"
+destinationFolder="$desktopPath/CLI_Downloads"
+
+mkdir -p "$destinationFolder"
+
+fullPath="$destinationFolder/$theFileName"
+
+curl -L -o "$fullPath" "$theURL"
+
+if [[ -f "$fullPath" ]]; then
+  echo "Download complete: $fullPath"
+  # Reveal in Finder
+  open -R "$fullPath"
+else
+  echo "Download failed."
+fi
+
