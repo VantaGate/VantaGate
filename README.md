@@ -64,6 +64,13 @@ To use Yandex:
 - If your browser says 'Site Blocked', 'Access Restricted', etc, copy the link from the search bar and fetch that one as well
 - Open the other '.html' file using either your native browser or VantaGate
 
+## Project Background
+
+VantaGate is an original project designed and developed for private local browsing, educational sandboxing, and more features we are planning on adding.
+
+This project originated from a small codebase created by a GitHub user named **Glisterk**, whose repository implemented a "blank tab cloak" using a simple iframe-based method. While VantaGate now serves a completely different purpose, this early concept inspired the tab-handling component of the initial prototype.
+
+VantaGate has since been entirely rewritten and expanded with new features, functionality, and goals beyond the scope of the original idea.
 
 ### Please use this tool responsibly. 
 
