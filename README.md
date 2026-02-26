@@ -1,5 +1,5 @@
 # VantaGate 
-The simplest way to browse the internet, download and open web pages and files anonymously. Only takes up 22KB of storage, and works in spite of most restrictions. Now, it may not work for ALL restrictions, but it certainly gets past Apple's Screen Time web restrictions.
+The simplest way to browse the internet, download and open web pages and files anonymously. Only takes up 22KB of storage, and works in spite of most, if not all, of Apple's Screen Time restrictions for web browsing.
 
 ## DISCLAIMER: 
 This tool allows you to download and open content anonymously. However, it is your responsibility to ensure that the content you are downloading is safe. We do not control the files you access through this tool, and we are not responsible for any harm caused by malicious files.
