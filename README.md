@@ -12,7 +12,7 @@ Transmits raw bit stream over the physical medium.
 - 2. Data Link Layer
 Defines the format of data on the network.
 - 3. Network Layer
-Decides which physical path the data will take. This is partially where the tool comes in, it ignores the restrictions put on the system and retrieves files.
+Decides which physical path the data will take. This layer handles routing and addressing, not system restrictions—so the tool doesn’t “ignore” restrictions here; the restrictions are actually enforced by the operating system and browser at a higher layer.
 - 4. Transport Layer
 Transmits data using transmission protocols including TCP and UDP.
 - 5. Session Layer
@@ -22,7 +22,7 @@ Ensures that data is in a usable format and is where data encryption occurs.
 - 7. Application Layer
 Human-computer interaction layer, where applications can access the network services.
 
-TL;DR: The tool starts from Application Layer (7) then at the Network Layer (3) and all the way back up, retrieving files without a glance at the restrictions put in place.
+TL;DR: The tool starts from Application Layer (7) and operates in a security context outside the browser sandbox, allowing it to retrieve files without being limited by the restrictions that normally apply to the browser.
 
 
 ## Guides: 
